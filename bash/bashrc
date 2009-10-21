@@ -6,6 +6,11 @@ if [ -f ~/.alias ]; then
     source ~/.alias
 fi
 
+# Local Alias
+if [ -f ~/.alias_local ]; then
+    source ~/.alias_local
+fi
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
