@@ -3,3 +3,4 @@ cp bashrc ~/.bashrc
 cp screenrc ~/.screenrc
 cp vimrc ~/.vimrc
 cp alias ~/.alias
+cp gitconfig ~/.gitconfig

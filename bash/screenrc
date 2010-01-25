@@ -1,9 +1,10 @@
 termcapinfo xterm ti@:te@
+term screen-256color
 
 startup_message off
-vbell off
 hardstatus alwayslastline '%{ck}%-w%{.kG}%n %t%{-}%+w %=%{.w}%{ck} %H, %M %d, %c'
 
+vbell off
 autodetach on
 defutf8 on
 defscrollback 10000

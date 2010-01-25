@@ -1,0 +1,10 @@
+[user]
+    name = Fayland Lam
+    email = fayland@gmail.com
+[color]
+    status = auto
+    branch = auto
+    ui = auto
+[alias]
+    ci = commit
+    co = checkout
