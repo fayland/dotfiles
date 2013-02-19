@@ -2,4 +2,4 @@ alias e=edit
 alias v=vim
 
 alias svndiff='svn diff -x --ignore-eol-style'
-
+alias gitdiff='git diff --ignore-space-at-eol'
