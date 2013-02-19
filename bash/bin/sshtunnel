@@ -1,1 +1,3 @@
-ssh -N -D 7070 fayland.org -v
+#!/bin/bash
+
+ssh -N -D 9050 fayland.org -v
