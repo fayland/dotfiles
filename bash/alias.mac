@@ -1,0 +1,1 @@
+alias rmDS_Store="find . -name .DS_Store -print -delete";
