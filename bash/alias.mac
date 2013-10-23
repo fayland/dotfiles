@@ -1,1 +1,3 @@
 alias rmDS_Store="find . -name .DS_Store -print -delete";
+alias rsyncfayme="rsync -arv --delete _site fay:/srv/www/fayland.me/";
+

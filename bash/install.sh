@@ -6,4 +6,3 @@ cp my.cnf ~/.my.cnf
 cp wgetrc ~/.wgetrc
 mkdir ~/bin
 cp bin/sshtunnel ~/bin/
-cp ackrc ~/.ackrc
