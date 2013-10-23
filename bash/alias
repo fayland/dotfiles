@@ -1,4 +1,4 @@
-alias e=edit
+alias e="subl"
 alias v=vim
 
 alias svndiff='svn diff -x --ignore-eol-style'
