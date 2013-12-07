@@ -7,6 +7,7 @@ brew install git subversion
 brew install zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
+brew install wget
 brew install mysql imagemagick
 
 ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
@@ -14,6 +15,7 @@ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/s
 curl -L http://install.perlbrew.pl | bash
 source ~/perl5/perlbrew/etc/bashrc
 perlbrew install-cpanm 
+cpanm App::Ack
 
 curl -sS https://getcomposer.org/installer | php -- --install-dir=bin
 
