@@ -20,8 +20,9 @@ cpanm App::Ack
 
 curl -sS https://getcomposer.org/installer | php -- --install-dir=bin
 
-sudo easy_install pip
-sudo pip install virtualenv
+easy_install pip
+pip install virtualenv
+pip install virtualenvwrapper
 
 brew install poppler tesseract wkhtmltopdf
 brew install phantomjs
