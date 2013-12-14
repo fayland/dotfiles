@@ -9,15 +9,20 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 
 brew install wget
 brew install mysql imagemagick
+brew install python ruby nodejs
 
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/bin/subl
 
 curl -L http://install.perlbrew.pl | bash
 source ~/perl5/perlbrew/etc/bashrc
-perlbrew install-cpanm 
+perlbrew install-cpanm
 cpanm App::Ack
 
 curl -sS https://getcomposer.org/installer | php -- --install-dir=bin
 
 sudo easy_install pip
 sudo pip install virtualenv
+
+brew install poppler tesseract wkhtmltopdf
+brew install phantomjs
+brew install casperjs --devel
