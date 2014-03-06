@@ -9,3 +9,9 @@
     ci = commit
     co = checkout
     st = status
+[push]
+    default = simple
+[http]
+    sslVerify = false
+[credential]
+    helper = osxkeychain
