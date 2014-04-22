@@ -4,7 +4,7 @@
 [color]
     status = auto
     branch = auto
-    ui = auto
+    ui = 1
 [alias]
     ci = commit
     co = checkout
@@ -15,3 +15,5 @@
     sslVerify = false
 [credential]
     helper = osxkeychain
+[help]
+    autocorrect = 1
